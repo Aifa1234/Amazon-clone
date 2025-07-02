@@ -910,4 +910,28 @@ margin:auto;
 }
 .four-star{
     background-image:var(--select);
+    background-position: -210px -468px;
+    background-size: 512px 512px;
+    height: 18px;
+    width:80px;
+    position:relative;
+    vertical-align: text-top;
+    display:inline-block;
+}
+.product-rate .down-arrow{
+    vertical-align:text-top;
+    background-image: var(--select);
+    background-size:512px 512px;
+    background-position:-429px -357px;
+    height: 16px;
+    width:16px;
+    display: inline-block;
+}
+.product-rate-two{
+    width:100%;
+}
+.product-rate-two span{
+    width:auto;
+    height: auto;
+    color:#565959;
 }
