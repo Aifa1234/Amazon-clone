@@ -1,0 +1,255 @@
+/* VARIABLES */
+:root{
+    --amazon:url(https://m.media-amazon.com/images/G/31/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB546381437_.png);
+    --lang:url(https://m.media-amazon.com/images/S/sash/vqXWsNPg$9994Pg.png);
+}
+/* RESET */
+*{  box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: var(--in-font);
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-size:14px;
+    line-height: 20px;
+}
+@font-face{
+    font-family: 'in-font.woff2';
+    src:url(font/in-font.woff2)
+}
+@font-face {
+    font-family: 'in-font.woff2';
+    font-weight: 200;
+    src: url(https://m.media-amazon.com/images/S/sash/Dv1WQ5DdeMS5qP7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/e0LnMbFWJC-TMQz.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-weight: 200;
+    font-style: italic;
+    src: url(https://m.media-amazon.com/images/S/sash/ozb5-CLHQWI6Soc.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/twzZHebXjCHBb6v.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font-woff2';
+    src: url(https://m.media-amazon.com/images/S/sash/pDxWAF1pBB0dzGB.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/kfKKBuoqcD$AUKL.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-style: italic;
+    src: url(https://m.media-amazon.com/images/S/sash/WOnTLzkiaEccV7F.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/JJsp0ZvgpfwzJM6.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-weight: 500;
+    src: url(https://m.media-amazon.com/images/S/sash/VjTR4RqBzY0mUYx.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/XIvhNCZAsrT80Wz.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-weight: 500;
+    font-style: italic;
+    src: url(https://m.media-amazon.com/images/S/sash/KwhNPG8Jz-Vz2X7.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/YAEPfuhs1l-argd.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-weight: 700;
+    src: url(https://m.media-amazon.com/images/S/sash/KFPk-9IF4FqAqY-.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/mzVbGSgvdBfRLX9.woff) format("woff")
+}
+
+@font-face {
+    font-family: 'in-font.woff2';
+    font-style: italic;
+    font-weight: 700;
+    src: url(https://m.media-amazon.com/images/S/sash/2SazJx$EeTHfhMN.woff2) format("woff2"),url(https://m.media-amazon.com/images/S/sash/CjbL$jCCegyfqZ7.woff) format("woff")
+}
+
+footer{
+    min-width:100px;
+    background-color: #232F3E;
+    position:relative;
+    margin-top:30px;
+    display: block ;
+}
+.bak-to-top{
+    width:auto;
+    height: auto;
+    white-space: normal;
+}
+.go-to-back-text{
+    margin-bottom:40px;
+    background-color: #37475A;
+}
+.go-to-back-text span{
+    display:block;
+    color:#FFF;
+    text-align: center;
+    padding:15px 0;
+    line-height: 19px;
+    font-size: 13px;
+}
+.footer-table{
+    max-width: 1000px;
+    display: table;
+    margin:0 auto;
+}
+.footer-table-inner{
+    display: table-row;
+}
+.footer-word{
+    display:table-cell;
+    padding:0 10px;
+    line-height: 120%;
+    color:#333;
+    vertical-align: top;
+}
+.footer-heading{
+   font-weight: 700;
+   color:#FFF;
+   margin:6px 0px 14px 0px;
+   font-size: 16px;
+}
+.footer-word ul li{
+    margin:0 0 10px 0;
+    white-space: nowrap;
+    word-wrap:break-word;
+}
+.footer-word ul li a{
+    color:#DDD;
+    white-space:normal;
+}
+.footer-empty{
+    display: table-cell;
+    padding:0 10px;
+    width:10%;
+}
+.footer-line{
+ border-top:1px solid #3a4553;
+ margin-top:40px;  
+}
+.footer-button{
+    font-size: 12px;
+    margin:10px auto;
+    text-align: center;
+}
+.footer-amazon{
+    white-space: normal;
+    padding:0 0.6em;
+    display: inline-block;
+    line-height: 18px;
+}
+.footer-amazon-inner{
+    text-align: center;
+    max-width: 1000px;
+    margin:30px auto 11px;
+    padding:0 0.6em;
+}
+.amazon-image{
+   background-image: var(--amazon);
+   background-position: -10px -90px;
+   width:76px;
+   height: 27px;
+   margin:0 auto;
+}
+.amazon-link{
+    display: inline-block;
+ padding:0 0.6em;
+} 
+.english-button{
+    margin:18px auto 0;
+    margin-left: 70px;
+    vertical-align: top;
+    padding:0 0.6em;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+}
+.lan-con-button{
+    font-size: 12px;
+    white-space: normal;
+    text-align: center;
+    line-height: 18px;
+}
+.lan-button{
+   display: inline-block;
+   border:1px solid #848688;
+   border-radius: 3px;
+   padding:6px 18px 6px 8px;
+   font-size: 13px;
+   margin-right: 4px;
+   line-height: 18px; 
+}
+.lan-link{
+ display:inline-block;
+ padding:0 0.6em;
+}
+.lan-icon{
+  background-image: var(--lang);
+  background-size: 194px 295px;
+  background-position: -77px -24px;
+  cursor: pointer;
+  display: inline-block;
+  position:relative;
+  top:2px;
+  left:0;
+  width:15px;
+  height: 15px;
+}
+.lan-text{
+   color:#CCC; 
+   padding:0 0.6em;
+   display: inline-block;
+}
+.up-down-arrow{
+   background-image: var(--lang);
+   background-size:194px 295px;
+   background-position: -79px -79px;;
+   width:12px;
+   height: 16px;
+   position:relative;
+   border:none;
+   left:9px;
+   line-height: normal;
+   cursor: pointer;
+   display:inline-block;
+   background-color: rgba(0,0,0,0);
+}
+.con{
+   display:inline-block;
+   border:1px solid #848699;
+   border-radius: 3px;
+   padding:6px 18px 6px 8px;
+   font-size: 13px;
+   margin-right: 4px; 
+}
+.flag{
+   background-image: var(--lang);
+   background-position: -18px -36px;
+   background-size:194px 295px;
+   color:rgb(33,98,161);
+   cursor: pointer;
+   display:inline-block;
+   font-size: 13px;
+   height: 12px;
+   width:18px;
+   line-height: 18px;
+   position:relative;
+   top:1px;
+   bottom:-1px;
+   margin:3px 0 0;
+   padding:0 0.6em;
+   text-align: center;
+}
+.flag-name{
+    color:#CCC;
+    padding:0 0.6em;
+    display:inline-block;
+    line-height: 18px;
+    text-align: center;
+}
