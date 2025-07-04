@@ -253,3 +253,44 @@ footer{
     line-height: 18px;
     text-align: center;
 }
+.footer-service{
+    font-size:12px;
+    padding:30px 0;
+    margin:30px 0 0;
+    background-color: rgb(19,26,34);
+    color:rgb(221,221,221);
+    line-height: 18px;
+    text-align: center;
+}
+.footer-service-inner{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer-service-inner ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 15px;
+    line-height: 18px;
+}
+.service-word{
+    width:15%;
+    padding:0 .75em;
+    text-align: left;
+    line-height: 115%;
+    display: inline;
+}
+.service-word h5{
+   font-size: 12px;
+   font-weight: 400;
+   line-height: 14px; 
+}
+.service-word span{
+    line-height: 110%;
+    display: inline-block;
+    color:#999;
+}
+.service-empty{
+    width:4%;
+    display: inline;
+}
