@@ -187,6 +187,45 @@ main{
     height: 16px;
     line-height: 16px;  
 }
+.main-left-two li{
+    height: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+
+   
+
+    
+}
+body > main > div.main-left > div > div.main-left-two > ul > li > span:nth-child(2){
+    /* background-color: red; */
+    transform: translateY(2px);
+}
+
+body > main > div.main-left > div > div.main-left-two > ul > li > span:nth-child(1) > i{
+    transform: translateY();
+}
+body > main > div.main-left > div > div.main-left-two > ul > li > span:nth-child(odd){
+    /* background-color: blue; */
+    transform: translateY(1px);
+}
+.main-left .main-left-two ul li i{
+    /* display: inline-block;
+    transform: translateY(2px); */
+}
+
+/* .main-left-two .ulli-wrapper .clear{
+    margin-bottom: 2px;
+} */
+.main-left p{
+    display: inline;
+   
+}
+.main-left-two ul li:nth-child(2){
+    margin-top:-1px
+    
+}
 .see-more .left-arrow{
     transform: rotate(-90deg);
 }
