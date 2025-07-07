@@ -4,6 +4,7 @@
     --sign-in-icon: url(https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541718031_.png);
     --prime: url(https://m.media-amazon.com/images/S/sash/IAiggOMz$2G$3oR.png);
     --star: url(https://m.media-amazon.com/images/S/sash/Zf4KcHNXMx7zzfI.png);
+
 }
 
 /* RESET */
@@ -497,6 +498,7 @@ order:3;
     transform: rotate(-45deg);
 }
 .check{
+ /* margin-bottom: 3px;  */
     margin-left: -4px;
     margin-right: -4px;
     padding:0;
@@ -518,6 +520,7 @@ order:3;
   color:#565959
 }
 .one-card{
+    margin-top: 4px; 
     grid-column: auto / span 12;
 }
 .one-card-inner{
@@ -539,15 +542,16 @@ order:3;
   flex-wrap: wrap;
   padding: 0;
   margin: 0 -8px 0 -4px;
+  position: relative;
 }
 .one-card-absolue{
-    position: absolute;
-    left: 0;
+    position: relative;
+    left: 0px;
     bottom: 0;
 }
 .side-icon{
     position: absolute;
-    left:0;
+    left:4px;
     bottom: 0;
     margin-bottom: 0;
     display: flex;
@@ -610,31 +614,40 @@ order:3;
     text-decoration: none;
  }
  .best-grid{
-    padding:1px 4px 1px 4px;
+    padding:0 4px 4px 4px;
     height: 20px;
     align-content: center;
     display: grid;
     background-color: #D14900;
     display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    float:left;
+    text-align: center;
  }
  .best-write-outer{
     font-size: 13px;
     line-height: 18px;
     height: 18px;
+    vertical-align: middle;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
  }
  .best-word{
     color:#FFF;
+    vertical-align: middle;
  }
  .phone{
     display:flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 8px;
+    padding-left: 8px; 
+    padding-right:8px;
      flex-grow: 1;
-    justify-content: center;
     position: relative;
     text-align: center;
-     max-height: 170px;
+
+    align-items: center;
  }
  .phone-inner{
     text-align: center;
@@ -683,7 +696,7 @@ order:3;
  .content-inner-inner{
     margin-top:8px;
     padding-right: 8px;
-    margin-top: 8px;
+    margin-bottom: 8px;
  }
  /* .content-para{
  
@@ -785,8 +798,14 @@ order:3;
 }
 .a-letter-space{
     display: inline-block;
-    width: .4em;
+    width: .2em;
 }
+/* .b-letter-space{
+    display: inline-block;
+    width: .01em;
+} */
+
+
 .price-offer{
     display: inline-block;
     margin-bottom: 13px;
@@ -796,12 +815,14 @@ order:3;
     line-height: 16px;
     font-weight: 300;
     color:#565959;
+    display: inline;
 }
 .price-cut{
     display: inline-block;
     font-weight: 300;
     font-size: 12px;
     line-height: 16px;
+    text-decoration: line-through;
 }
 .price-number{
     font-size: 12px;
@@ -815,6 +836,7 @@ order:3;
     line-height: 16px;
 }
 .price-row-two{
+    margin-top: -1px;
     font-size: 12px;
     line-height: 16px;
     width: 100%;
@@ -831,3 +853,219 @@ order:3;
     display: inline-block;
     width: 100%;
 }
+.emi{
+   
+    height: auto;
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+}
+.delivery-detail{
+   padding-top:4px;   
+}
+/* .delivery-inner{
+
+} */
+
+.delivery-inner-inner{
+    position: relative;
+    display: block;
+}
+.delivery-outer{
+    font-size: 12px;
+    line-height: 16px;
+    width: 100%;
+    color:#565959;
+}
+.delivery-row-one{
+    margin-top: 2px;
+    vertical-align: middle;
+}
+.prime-icon-outer{
+    display: inline-block;
+}
+.prime-pic-icon{
+    position: relative;
+    bottom:-1.5px;
+    top:1.5px;
+}
+.prime-picture-icon{
+    vertical-align: baseline;
+    background-image: var(--prime);
+    width: 53px;
+    height: 15px;
+    background-position: -181px -128px;
+    margin-bottom: -1.750px;
+    background-size: 512px 256px;
+    font-size: 12px;
+    line-height: 16px;
+    display: inline-block;
+
+}
+.one-del{
+    height:17.25px ;
+}
+ .free-delivery{   
+height: 16px;
+} 
+ .dev{
+    display: inline;
+    color:#0f1111;
+    font-size: 12px;
+    line-height: 16px;
+ }
+ .dev-date{
+    display: inline;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+ }
+ .button-section{
+    padding-top: 4px;
+ }
+ .button-row{
+    width: 100%;
+ }
+ .button-row-inner{
+    margin-top: 12px;
+ }
+ .two-del{
+    margin-top:5px;
+    margin-bottom: 3px;
+ }
+ /* .button-inner-inner{
+
+ } */
+  /* .button-outer{
+
+  } */
+   /* .button-in{
+
+   } */
+/* .button-in-in{
+
+} */
+ .button-click{
+    border-radius: 100px;
+    border-width: 1px;
+    display: block;
+    padding:0;
+    text-align: center;
+    vertical-align: middle;
+    border-style: solid;
+    background-color: #ffd814;
+    border-color: #ffd814;
+ }
+ .button-click-inner{
+    position:relative;
+    display: block;
+    height: 100%;
+    overflow:hidden;
+ }
+ .add-to-cart{
+    color:#0f1111;
+    padding:5px 12px 5px 12px;
+    font-size: 13px;
+    line-height: 20px;
+    margin:0;
+    text-align: center;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+ }
+ .cellular-phone{
+margin-top:4px
+ } 
+  .cellular-inner{
+    position: relative;
+    display:block;
+  }
+  .cellular-row{
+    font-size: 12px;
+    line-height: 16px;
+    color:#565959;
+    width: 100%;
+  }
+  .cellular-text{
+    font-size: 10px;
+    line-height: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-weight: 500;
+    background-color: #f0f2f2;
+    border:1px solid #f5f5f5;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .two-card .phone img{
+   max-height: 143px;
+  }
+  .two-card{
+    margin-top:0px
+  }
+  .two-card .content-content p{
+    line-height: 19.9px;
+  }
+  .four-half-star-icon{
+    background-image: var(--star);
+    background-position: -2px -351px;
+    height: 12px;
+    width: 60px;
+    display: inline-block;
+    background-size: 512px 512px;
+    line-height: 16px;
+    position: relative;
+    vertical-align: bottom;
+    margin-left: 2px;
+    top:-2.7px
+}
+.two-card .delivery-detail{
+    padding-top: 0;
+    margin-bottom: 2px;
+}
+/* .two-card .delivery-row-one{
+    margin-top: 2px;
+} */
+.two-card .two-del{
+    margin-top: 3px;
+}
+.two-card .one-del{
+   margin-bottom: 3px; 
+}
+.two-card button{
+    height: 31px;
+}
+.three-card .phone-inner-inner img {
+    max-height: 100px;
+}
+.three-card .rupee-symbol{
+  position:relative;
+  /* top:0.4em */
+}
+.three-card .rupee{
+  position:relative;
+  top:3px;
+}
+.three-card .price-offer,
+.three-card .off-percent{
+   position: relative;
+   top:1px
+}
+.three-card .cellular-text{
+    margin-top: 0px;
+}
+.three-card .two-del{
+   margin-top: 4px; 
+}
+.three-card .one-del{
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+.three-card .amount-inner span:last-child{
+    position: relative;
+    top:1px
+}
+.three-card button{
+    height: 30px;
+}
+
