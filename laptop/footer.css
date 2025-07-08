@@ -141,6 +141,7 @@ footer{
     margin:10px auto;
     text-align: center;
     max-width: 1000px;
+    height: 68px;
     /* height: 68px; */
 }
 .footer-amazon{
@@ -148,6 +149,11 @@ footer{
     /* padding:0 0.6em; */
     display: inline-block;
     line-height: 18px;
+    position: relative;
+    /* left: 2px; */
+    /* margin-left: 52px; */
+
+
 }
 .footer-amazon-inner{
     text-align: center;
@@ -163,6 +169,7 @@ footer{
    width:76px;
    height: 27px;
    margin:0 auto;
+  
 }
 .amazon-link{
     display: inline-block;
@@ -182,6 +189,8 @@ footer{
     white-space: normal;
     text-align: center;
     line-height: 18px;
+    display: flex;
+    gap: 3px;
 }
 .lan-button{
    display: inline-block;
@@ -191,6 +200,8 @@ footer{
    font-size: 13px;
    margin-right: 4px;
    line-height: 18px; 
+   display: flex;
+   align-items: center;
 }
 .lan-link{
  display:inline-block;
@@ -212,6 +223,7 @@ footer{
    color:#CCC; 
    padding:0 0.6em;
    display: inline-block;
+   transform: translateY(0px) translateX(-3px) ;   /* */
 }
 .up-down-arrow{
    background-image: var(--lang);
@@ -222,6 +234,7 @@ footer{
    position:relative;
    border:none;
    left:9px;
+   top: 2px;
    line-height: normal;
    cursor: pointer;
    display:inline-block;
@@ -235,7 +248,7 @@ footer{
    display:inline-block;
    border:1px solid #848699;
    border-radius: 3px;
-   padding:6px 18px 6px 8px;
+   padding:6px 15px 6px 8px;
    font-size: 13px;
    margin-right: 4px; 
 }
@@ -263,6 +276,7 @@ footer{
     display:inline-block;
     line-height: 18px;
     text-align: center;
+    transform: translateY(0px) translateX(-3px)  ; /* translateX(-3px) */
 }
 .footer-service{
     font-size:12px;
@@ -314,6 +328,7 @@ footer{
     max-width:100%;
     padding:10px 0 30px;
     text-align: center;
+    height: 76px;
 }
 .footer-down ul{
     display: flex;
@@ -335,4 +350,7 @@ footer{
     display: inline-block;
     padding:0 0.6em;
     color:#DDD;
+    height: 18px;
+    transform: translateY(-1px);
 }
+
