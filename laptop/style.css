@@ -665,6 +665,7 @@ margin:0 auto;
    line-height: 20px; 
 }
 .product-rate-two{
+   transform: translateY(-1px);
     width:100%;
 }
 .product-rate-two span{
@@ -721,6 +722,7 @@ margin:0 auto;
    overflow:hidden;
    max-height:1.3em; 
    line-height: 20px;
+   transform: translateY(-1px);
 }
 .product-delivery{
     padding-top:4px;
@@ -794,6 +796,9 @@ margin:0 auto;
       border:0;
      outline: 0;
      font-weight: 400;
+     
+     /* height: 40px;
+     vertical-align: middle; */
 }
 .card-two .card-one-image{
     padding-top: 24px;

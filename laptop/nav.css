@@ -966,6 +966,8 @@ padding:0 0 5px;
     position:relative;
     width: 132.938px;
     text-align: center;
+    display: flex;
+    gap:3px
 }
 .sort-one{
     
@@ -982,7 +984,7 @@ padding:0 0 5px;
 } 
 .sortby .arrow{
    background-image: url(https://m.media-amazon.com/images/S/sash/f9Cwl2OUDVHGXk8.png);
-   background-position:-7px 102px;
+   background-position:-7px -102px;
    width:10px;
    height: 8px;
    display: inline-block;
@@ -994,5 +996,6 @@ padding:0 0 5px;
    right: 8px;
    text-align: center;
    vertical-align: top;
-   color:rgb(101, 142, 142)
+   margin-left: 2px;
+   margin-top: 2px;
 }
