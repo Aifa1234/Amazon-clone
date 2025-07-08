@@ -258,7 +258,7 @@ order:3;
     width:27px;
     height: 25px;
     display: inline-block;
-    fill:black
+   -webkit-filter: invert(100%);
 }
 .header-bottom{
     background-color: #37475A;
