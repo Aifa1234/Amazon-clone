@@ -614,7 +614,7 @@ order:3;
     text-decoration: none;
  }
  .best-grid{
-    padding:0 4px 4px 4px;
+    padding:0px 4px 4px 4px;
     height: 20px;
     align-content: center;
     display: grid;
@@ -624,6 +624,7 @@ order:3;
     position: relative;
     float:left;
     text-align: center;
+    
  }
  .best-write-outer{
     font-size: 13px;
@@ -632,10 +633,14 @@ order:3;
     vertical-align: middle;
     margin-bottom: 30px;
     padding-bottom: 10px;
+    transform: translateY(15px);
+    position: relative;
  }
  .best-word{
     color:#FFF;
     vertical-align: middle;
+    display: inline-block;
+    transform: translateY(-0.9px);
  }
  .phone{
     display:flex;
