@@ -30,6 +30,13 @@
     border-top-left-radius:8px;
     border-bottom-left-radius:8px;
     min-width: 70px;
+    padding-left: 12px;
+    margin-left: 2px;
+    display: flex;
+    gap:4px;
+}
+.pre svg{
+ margin-top:16px
 }
 .page-one li{
 display:inline-block
@@ -38,6 +45,7 @@ display:inline-block
     color:#0f1111;   
 }
 .number-number{
+    width:24px;
     display: inline-block;
     color:#0f1111;
     font-weight: 700;
@@ -46,7 +54,7 @@ display:inline-block
     position:relative;
     line-height: 46px;
     height: 46px;
-    padding:0 12px;
+    
     min-width:24px;
     box-sizing: content-box;
     border:1px solid #0f1111;
@@ -74,4 +82,30 @@ display:inline-block
     border-right: 1px solid #d5d9d9;
     border-top-right-radius:8px;
     border-bottom-right-radius:8px;
+}
+.next-page svg{
+    margin-top: -1px;
+}
+.page-one ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -4px;
+}
+.one{
+   margin-top: 17px;
+   margin-right: 3px; 
+}
+.two-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4px;
+}
+.two{
+   margin-top: 1px;
+   margin-left: 3px; 
+}
+.dot svg{
+    transform: translateY(-4px);
 }
