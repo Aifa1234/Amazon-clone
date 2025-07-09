@@ -863,3 +863,14 @@ margin:0 auto;
 .gap .product-rate-two{
     transform: translateY(1px);
 }
+.mobile-view{
+    display: none;
+}
+@media screen and (max-width:768px){
+    .desktop{
+     display: none;
+    }
+    .mobile-view{
+        display: block;
+    }
+}
