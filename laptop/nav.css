@@ -212,6 +212,7 @@ body{
     height:40px;
 } */
 .form-left{
+    
     display: flex;
     width:auto;
     height: auto;
@@ -238,11 +239,15 @@ body{
     height: 40px;
     padding-left: 5px;
     border:1px solid #cdcdcd;
+     border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 4px;
  }
  .form-left-left{
     position:relative;
     float: left;
-    top:3px
+    top:3px;
+    
  }
 .form-left .form-left-text{
     display: block;
@@ -255,6 +260,7 @@ body{
     margin-left:5px;
     min-width:19px;
     width:auto;
+    border-top-right-radius: 4px;
 }
 .form-left-icon{
     position:absolute;
@@ -352,7 +358,7 @@ body{
     display:inline-block;
     position:relative;
     margin-right: 12px;
-   
+    margin-left: 2px; 
 }
 .en-link{
 padding:0 0 5px;
@@ -426,7 +432,7 @@ padding:0 0 5px;
     vertical-align: middle;
 }
 .hello-sign{
-   /* margin-left: 2px; */
+   margin-left: -5px;
    padding-right: 9px;
    padding-left: 9px;
    position: relative;
@@ -455,6 +461,7 @@ padding:0 0 5px;
     margin-top: 9px;
     display: flex;
     align-items: center;
+    
 }
 .hello-word{
     display: flex;
@@ -513,7 +520,7 @@ padding:0 0 5px;
     font-size: 12px;
     line-height: 14px;
     font-weight: 400;
-    transform: translateX(-7px);
+    transform: translateX(-8px);
 }
 .return-line-two{
     display: flex;
@@ -522,6 +529,7 @@ padding:0 0 5px;
     font-size: 14px;
     line-height: 15px;
     font-weight: 700;
+    transform: translateX(1px);
 }
 .cart-number{
     margin-right: 11px;
@@ -840,12 +848,14 @@ padding:0 0 5px;
     padding:2px
 } */
 .down{
+    height: 45px;
      width:100%;
     /* min-width:1084px; */
     font-size: 12px;
     line-height: 1em;
 }
 .down-wrapper{
+    
     display: flex;
     /* justify-content: space-between; */
     align-items: center;
@@ -885,6 +895,7 @@ padding:0 0 5px;
     text-align: center;
 }
 .ele img{
+    transform: translateY(-1px);
     height: 50px;
     border:0;
     outline:0;
@@ -909,22 +920,26 @@ padding:0 0 5px;
     text-align: center;
 }
 .number{
+    height: 45px;
     line-height: 20px;
     margin-bottom: 8px;
     border-top:1px solid #ccc;
     border-bottom:1px solid #ccc;
-    height: 40px;
 }  
 .number-inner{
+    width:100%;
     display: flex;
     max-width: 1800px;
     align-items: center;
     margin:0 auto;
-    padding-left:16px
+    padding-left:16px;
+    margin-top: 5px;
+    flex:1 1 auto;
+    justify-content: space-between;
 }  
 .num{
   display: block;
-   width:1288px;
+   /* width:1288px; */
    min-width: 622.5px;
    max-width: 1122.5px; 
 } 
@@ -938,6 +953,11 @@ padding:0 0 5px;
     min-width:298.8px;
     width:406.312px;
     /* width: 1382.4px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex:1 1 auto;
+    
 }
 .sortby-wrapper{
     display: flex;
@@ -949,6 +969,8 @@ padding:0 0 5px;
     height: 100%;
     margin:8px 0;
     /* text-align: right; */
+    margin-top: 6px;
+   
 } 
 .sortby-text-wrapper{
     display: inline-block;
@@ -967,10 +989,11 @@ padding:0 0 5px;
     width: 132.938px;
     text-align: center;
     display: flex;
-    gap:3px
+    gap:3px;
+    height: 25px;
 }
 .sort-one{
-    
+    margin-top:1px;
     width:100%;
     padding:0 8px 0 8px;
     /* padding-right: 26px; */
@@ -978,6 +1001,7 @@ padding:0 0 5px;
     line-height: 22px;
     position: relative;
     text-align: left;
+    height: 30px;
 }
  .sortby-text .one{
     margin-right: 6px;
